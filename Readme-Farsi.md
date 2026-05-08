@@ -63,7 +63,3 @@ file-report --path . --ext log --larger-than 5 --output large_logs.md
 file-report --path ./images --ext jpg --smaller-than 2 --output small_jpgs.md
 ```
 
-## مشارکت در توسعه
-
-هرگونه پیشنهاد، گزارش مشکل یا درخواست pull request با استقبال روبرو می‌شود. لطفاً قبل از ارسال تغییرات عمده، یک Issue باز کنید.
-
