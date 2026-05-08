@@ -1,4 +1,4 @@
-```markdown
+
 # گزارش‌گیر فایل (file-report)
 
 ابزار خط فرمانی که با زبان راست (Rust) نوشته شده است. این برنامه یک پوشه را اسکن می‌کند، فایل‌ها را بر اساس پسوند و اندازه (اختیاری) فیلتر می‌کند و یک گزارش در قالب مارک‌دون (Markdown) تولید می‌نماید.
@@ -17,7 +17,7 @@
 برای ساخت پروژه، ابتدا اطمینان حاصل کنید که [Rust و Cargo](https://www.rust-lang.org/tools/install) روی سیستم شما نصب است. سپس دستورات زیر را اجرا کنید:
 
 ```bash
-git clone https://github.com/your-username/file-report.git
+git clone https://github.com/karamimoheb/File-Report-MD-Rust
 cd file-report
 cargo build --release
 ```
@@ -67,7 +67,3 @@ file-report --path ./images --ext jpg --smaller-than 2 --output small_jpgs.md
 
 هرگونه پیشنهاد، گزارش مشکل یا درخواست pull request با استقبال روبرو می‌شود. لطفاً قبل از ارسال تغییرات عمده، یک Issue باز کنید.
 
-## مجوز
-
-این پروژه تحت مجوز [MIT](LICENSE) منتشر شده است.
-```
